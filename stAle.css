@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+}
+
+.ddd1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #fff;
+
+    box-shadow: 0px 1px 10px 0px #0000001A;
+
+
+    position: relative;
+    z-index: 10;
+
+
+
+}
+
+.ddd2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff6a00;
+}
+
+.ddd3 a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.ddd4 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ddd5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+    background: #fff6f1;
+}
+
+.ddd6 {
+    width: 50%;
+}
+
+.ddd7 {
+    font-size: 44px;
+    color: #333;
+}
+
+.ddd8 {
+    font-size: 44px;
+    color: #ff6a00;
+    margin-bottom: 20px;
+    width: 440px;
+    height: 177px;
+
+}
+
+.ddd9 {
+    color: #777;
+    margin-bottom: 60px;
+    width: 493px;
+    height: 65px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 151%;
+    letter-spacing: 0%;
+    margin-top: -80px;
+}
+
+.ddd10 {
+    padding: 14px 28px;
+    background: #ff6a00;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ddd11 {
+    width: 45%;
+}
+
+.ddd11 img {
+    width: 100%;
+}
+
+.span1 {
+    color: black;
+}
+
+.span2 {
+    color: black;
+}
+.icon
+{
+    display: none;
+}
+.ddd4:hover
+{
+    background: #ff6a00;
+    border-radius: 50%;
+}
+@media (max-width: 510px) {
+
+  .ddd1 {
+    padding: 16px 20px;
+  }
+
+  .ddd3 {
+    display: none; 
+  }
+
+  .icon {
+    display: block;
+    font-size: 38px;
+    cursor: pointer;
+  }
+
+  .ddd5 {
+    flex-direction: column-reverse; 
+    padding: 30px 20px 50px;
+    text-align: center;
+  }
+
+  .ddd11 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .ddd11 img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .ddd6 {
+    width: 100%;
+  }
+
+  .ddd7 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .ddd8 {
+    font-size: 28px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .ddd9 {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .ddd10 {
+    width: 180px;
+    margin: 0 auto;
+  }
+}
