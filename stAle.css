@@ -221,7 +221,99 @@
     margin-left: 40px;
     color: #555;
 }
+button:hover
+{
+    background-color: #555;
+    color: white;
+}
+.qqq1{
+    width:100%;
+    padding:80px 60px;
+    background:#f3ebe7;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
 
+.qqq2{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:40px;
+}
+
+.qqq3{
+    width:50%;
+}
+
+.qqq4{
+    font-size:14px;
+    color:#777;
+    margin-bottom:15px;
+}
+
+.qqq5{
+    font-size:36px;
+    font-weight:700;
+    color:#333;
+    line-height:1.3;
+}
+
+.qqq6{
+    color:#ff5a00;
+}
+
+.qqq7{
+    margin-top:20px;
+    color:#777;
+    font-size:14px;
+    line-height:1.7;
+}
+
+.qqq8{
+    margin-top:30px;
+}
+
+.qqq9{
+    display:inline-block;
+    background:#ff5a00;
+    color:#fff;
+    padding:12px 25px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.qqq10{
+    width:50%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.qqq11{
+    background:#fff;
+    padding:40px 20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+    width: 270px;
+height: 120px;
+
+}
+
+.qqq12{
+    font-size:32px;
+    font-weight:700;
+    color:#333;
+}
+
+.qqq13{
+    margin-top:10px;
+    color:#777;
+}
+.pp
+{
+    margin-top: 10px;
+}
 @media (max-width: 510px) {
 
     .ddd1 {
@@ -366,4 +458,61 @@
         text-align: center;
 
     }
+    .qqq1{
+    padding:40px 20px;
+    margin-top: 500px;
+    
+}
+
+.qqq2{
+    flex-direction:column;
+}
+
+.qqq3{
+    width:100%;
+    text-align:center;
+}
+
+.qqq10{
+    width:100%;
+    grid-template-columns:1fr;
+    margin-top:30px;
+}
+
+.qqq5{
+    font-size:26px;
+}
+
+.qqq12{
+    font-size:28px;
+    text-align: center;
+    padding: 20px;
+}
+.qqq13
+{
+    text-align: center;
+    padding: 1px;   
+}
+.qqq11
+{
+    width: 333px;
+height: 140px;
+padding: 20px;
+margin-left: 10px;
+}
+.pp
+{
+    width: 321px;
+height: 169px;
+font-weight: 400;
+font-size: 16px;
+line-height: 151%;
+letter-spacing: 0%;
+text-align: center;
+margin-left: 40px;
+}
+.qqq8
+{
+    margin-top: -30px;
+}
 }
